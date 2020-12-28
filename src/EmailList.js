@@ -16,6 +16,13 @@ import EmailRow from "./EmailRow";
 
 
 function EmailList() {
+
+    // const [emails, setEmails] = useState([]);
+
+    // useEffect(() => {
+        
+    // }, [])
+
     return (
         <div className = "emailList">
             <div className = "emailList__settings">
