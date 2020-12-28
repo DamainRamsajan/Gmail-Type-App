@@ -70,21 +70,17 @@ function EmailList() {
                         title={to}
                         subject={subject}
                         description={message}
+                        time={new Date(timeStamp?.seconds * 1000).toDateString()}
                     />
                 ))}
 
                 <EmailRow 
                     title = "bachannal"
-                    subject = "you guessed it... your mama"
-                    description = "more your mama stuff"
-                    time = "4:00"
+                    subject = "A tale of two goats"
+                    description = "Two goats walked into a baa.."
+                    time = "Sun Dec 27 2020"
                 />
-                   <EmailRow 
-                    title = "bachannal"
-                    subject = "you guessed it... your mama"
-                    description = "more your mama stuff"
-                    time = "4:00"
-                />
+              
             </div>
         </div>
     )
